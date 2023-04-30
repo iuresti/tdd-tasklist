@@ -178,7 +178,8 @@ public class TaksListTest {
 
     @Test
     public void testGetListOfUndoneTasks() {
-        // Given: (Inicialización)
+        // Given:
+        // (Inicialización)
         TaskList taskList = new TaskList();
 
         Task task1 = new Task("Lavar los trastes", "Lavar los trastes sin tirar mucha agua", LocalDateTime.now().plusWeeks(20), false);
